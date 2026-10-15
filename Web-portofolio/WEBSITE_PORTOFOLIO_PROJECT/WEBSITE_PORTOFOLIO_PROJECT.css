@@ -1,0 +1,19 @@
+#complete-apps {
+    padding-top: 55px;
+}
+
+
+#small-projects {
+    padding-top: 60px;
+}
+
+#small-projects .card-body p {
+    min-height: 0; 
+}
+
+/* ============ RESPONSIF ============ */
+@media (max-width: 900px) {
+    .project-grid {
+        gap: 18px;
+    }
+}

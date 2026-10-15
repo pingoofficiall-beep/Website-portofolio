@@ -1,0 +1,41 @@
+.about-page {
+    padding-top: 50px;
+}
+
+.about-page .btn {
+    margin-top: 8px;
+}
+
+/* ============ MY FUN FACTS ============ */
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 760px;
+    padding-bottom: 40px;
+}
+
+.fact-item {
+    border: 1px solid var(--gray);
+    color: var(--white);
+    font-size: 15px;
+    padding: 6px 14px;
+    background-color: transparent;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.fact-item:hover {
+    border-color: var(--purple);
+    color: var(--purple);
+}
+
+/* ============ RESPONSIF ============ */
+@media (max-width: 560px) {
+    .facts {
+        gap: 12px;
+    }
+
+    .fact-item {
+        font-size: 14px;
+    }
+}
