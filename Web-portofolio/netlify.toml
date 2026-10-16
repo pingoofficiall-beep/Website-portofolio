@@ -1,8 +1,7 @@
 [build]
-  publish = "WEBSITE_PORTOFOLIO_HOME"
-
+  publish = "."
 
 [[redirects]]
   from = "/"
-  to = "/WEBSITE_PORTOFOLIO_HOME.html"
-  status = 200
+  to = "/WEBSITE_PORTOFOLIO_HOME/WEBSITE_PORTOFOLIO_HOME.html"
+  status = 301

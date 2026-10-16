@@ -1,0 +1,7 @@
+[build]
+  publish = "Web-portofolio"
+
+[[redirects]]
+  from = "/"
+  to = "/WEBSITE_PORTOFOLIO_HOME/WEBSITE_PORTOFOLIO_HOME.html"
+  status = 301
