@@ -1,2 +1,2 @@
 [build]
-  publish = "."
+  publish = "WEBSITE_PORTOFOLIO_HOME"
